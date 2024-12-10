@@ -8,7 +8,6 @@ bool CheckBit(int iNo)
 {
     int iMask = 0x20010;
     int iResult = 0;
-    
     iResult = iNo & iMask;
 
     if(iResult == 0)
